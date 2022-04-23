@@ -6,6 +6,4 @@ COPY ./herokureact /front
 WORKDIR /front
 EXPOSE 3000
 
-RUN rm -rf node_modules
-
 CMD [ "npm", "start" ]
